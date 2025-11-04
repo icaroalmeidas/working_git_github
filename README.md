@@ -33,3 +33,12 @@ git add README.md
 ```bach
 git commit - m "Conectando local-remoto"
 ```
+
+- Criando nova feature onde iremos fazer testes e apenas depois de aprovadas levaremos para a branch main
+```bach
+git checkout -b feature/desenvolvendo-git
+```
+- Enviando a nova feature para o remoto
+```bash
+git puch --set-upstream origin feature/desenvolvendo-git
+```
