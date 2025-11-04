@@ -23,3 +23,13 @@ git remote add origin https://github.com/icaroalmeidas/working_git_github
 ```bach
 git push -u origin main
 ```
+
+- Adiconando mudanças feitas no README.md
+```bach
+git add README.md
+```
+
+- Realizando o commit
+```bach
+git commit - m "Conectando local-remoto"
+```
