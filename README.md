@@ -8,3 +8,18 @@
 ```bash
 git init
 ```
+
+- Criei na minha conta no github um respositório com o nome working_git_github e copiei a ULR do repositório.
+```bash
+https://github.com/icaroalmeidas/working_git_github
+```
+
+- Conectando a pasta local ao respositório remoto
+```bash
+git remote add origin https://github.com/icaroalmeidas/working_git_github
+```
+
+- Envia o código da sua branch "main" para o remoto "origin"
+```bach
+git push -u origin main
+```
