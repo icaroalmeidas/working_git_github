@@ -42,3 +42,5 @@ git checkout -b feature/desenvolvendo-git
 ```bash
 git puch --set-upstream origin feature/desenvolvendo-git
 ```
+### As novas alterações forma feitas apenas na branch desenvolvendo-git. Digamos que já foram todas testadas e queremos levar para a branch main.
+
