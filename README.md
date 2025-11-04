@@ -44,3 +44,15 @@ git puch --set-upstream origin feature/desenvolvendo-git
 ```
 ### As novas alterações forma feitas apenas na branch desenvolvendo-git. Digamos que já foram todas testadas e queremos levar para a branch main.
 
+- Mude para a branch main
+```bash
+git checkout main
+```
+- Puxe as últimas atualizações do repositório remoto
+```bash
+git pull origin main
+```
+- Fazendo o merge da feature/desenvolvendo-git para a branch main
+```bash
+git merge feature/desenvolvendo-git
+```
