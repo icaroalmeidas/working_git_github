@@ -56,3 +56,4 @@ git pull origin main
 ```bash
 git merge feature/desenvolvendo-git
 ```
+## Apartir de agora é trabalhar na branch desenvolvendo-git fazendo todas as alterações, testando e se aprovadas mudar para a main, atualiza-la e depois fazer o git merge com a feature desenvolvendo-git
